@@ -5,8 +5,8 @@ on:
     #branches: [ master ]
   workflow_dispatch:
   schedule:
-    - cron: 30 23 * * ?
-  watch:
+    - cron: 10 9 * * *
+  关注:
     types: started
     
 jobs:
